@@ -1,0 +1,11 @@
+$bgcolor:white;
+
+@import 'framework';
+
+div{
+	border: 1px black dashed;
+}
+
+body{
+	background-color:$bgcolor;
+}

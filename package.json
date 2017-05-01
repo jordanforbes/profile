@@ -1,0 +1,26 @@
+{
+  "name": "profilepage",
+  "version": "1.0.0",
+  "description": "my profile iste",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.6.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build-css": "node-sass --include-path scss scss/main.scss views/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "engines": {
+    "node": "6.5.0",
+    "npm": "4.5.0"
+  },
+  "author": "Jordan Forbes",
+  "license": "ISC"
+}
